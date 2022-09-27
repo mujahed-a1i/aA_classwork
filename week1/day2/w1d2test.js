@@ -31,4 +31,5 @@ function sumNums(num1, num2){
     return (num1 + num2);
 }
 
-console.log(average(14,12));
+console.log(average(14,16));
+
