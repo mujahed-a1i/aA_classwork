@@ -14,4 +14,5 @@ let foo2 = function (){
 let foo3 = () => {
     return 'bar';
 }
-console.log(foo2);
+
+console.log(name('Mujahed',"Ali"));
