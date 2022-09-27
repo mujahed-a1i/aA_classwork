@@ -6,6 +6,7 @@ console.log(10-3)
 console.log(10/3)
 console.log(10%3) // number data type
 console.log(10%2) // if a number modulo returns a 0 then the number is even if not then it is odd
+
 // || = or operator
 console.log(true||true) // returns true
 console.log(true||false) // returns true 
@@ -97,3 +98,4 @@ Nan
 -0
 ""
 false
+*/
