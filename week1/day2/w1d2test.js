@@ -7,10 +7,11 @@ function name(p1, p2){
 }
 console.log(name('Jon','Diaz'));
 
-let foo = function (){
+let foo2 = function (){
     return 'bar';
 }
 
-let foo = () => {
+let foo3 = () => {
     return 'bar';
 }
+console.log(foo2);
