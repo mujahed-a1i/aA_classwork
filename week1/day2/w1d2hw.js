@@ -33,3 +33,54 @@ function threeOrSeven (num2){
 }
 
 console.log(threeOrSeven(55));
+
+function threeOr7(num3) {
+    return (num3 % 3 === 0) || (num3 % 7 === 0)
+}
+
+console.log(threeOr7(49));
+
+// hello function
+function hello(name){
+    return ('Hello ' + name + '.');
+}
+
+console.log(hello("Muja"));
+
+// yell function
+function yell(str1){
+    return (str1.toUpperCase());
+
+}
+console.log(yell('hi there'));
+
+function yell1(str2){
+    yelledstr = str2.toUpperCase() + '!';
+    return (str2.toUpperCase());
+
+}
+console.log(yell1('omg')); 
+
+// whisper function
+function whisper(str3){
+    return (str3.toLowerCase());
+}
+console.log(whisper("MY NAME IS MUJAHED"))
+
+function whisper1(str4){
+    whisperstr = str4.toLowerCase();
+    return (whisperstr);
+}
+
+console.log(whisper1('I AM TRYING TO WHISPER'))
+
+// Even function
+function isEven(even){
+    return (even % 2 === 0);
+}
+
+console.log(isEven(26));
+
+
+
+
