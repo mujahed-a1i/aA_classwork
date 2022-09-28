@@ -89,8 +89,22 @@ function avgOf4(n1,n2,n3,n4) {
 
 console.log(avgOf4(12, 15, 25, 20));
 
+function sayHello(name1){
+    let msg = ('Hello, ' + name1 + '. How are you?');
+    return msg;
+}
 
- 
+console.log(sayHello('Francis'))
 
 
+function numcheck (num4){
+    if(num4 > 0) {
+        return console.log(num4 + " is a positive number.");
+    } else if (num4 < 0){
+        return console.log(num4 + " is a negative number.");
+    } else (num4 = 0)
+        return console.log(num4 + ' is both a postitive and negative number.');
+    
+}
 
+console.log(numcheck(36));
