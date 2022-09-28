@@ -101,7 +101,7 @@ let str2 = 'App AcademY'
 if (str2[0] === str2[0].toUpperCase()) {
     console.log('starts with a capital!')
 }
-if (str2[str.length - 1] === str2[str2.length -1]){
+if (str2[str2.length - 1] === str2[str2.length -1]){
     console.log('ends with a capital!')
 }
 
