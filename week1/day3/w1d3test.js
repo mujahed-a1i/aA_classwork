@@ -45,11 +45,22 @@ while(true){
 
 console.log('skip5');
 function skipFive (num){
-    for (let k = 1; k <= num; k++){
-        if (k === 5){
-            continue
+    for (let i = 1; i <= num; i++){
+        if (i === 5){
+            continue // will skip the value you if'd 
         }
-        console.log(k);
+        console.log(i);
     }
 }
 skipFive(20); 
+
+console.log('break at five');
+function breakAtFive(num){
+    for (let i = 1; i <= num; i++){
+        if(i === 5){
+            break; // will stop before the value of if'd
+        }
+        console.log(i);
+    }
+}
+breakAtFive(20);
