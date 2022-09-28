@@ -99,12 +99,27 @@ console.log(sayHello('Francis'))
 
 function numcheck (num4){
     if(num4 > 0) {
-        return console.log(num4 + " is a positive number.");
+        return num4 + " is a positive number.";
     } else if (num4 < 0){
-        return console.log(num4 + " is a negative number.");
-    } else (num4 = 0)
-        return console.log(num4 + ' is both a postitive and negative number.');
-    
+        return num4 + " is a negative number.";
+    } else {
+        return num4 + ' is both a postitive and negative number.';
+    }
 }
 
 console.log(numcheck(36));
+
+// function isSubstring 
+function isSubstring(searchString, subString) {
+    let lowerSearchStr = searchString.toLowerCase();
+    let lowerSubStr = subString.toLowerCase();
+  
+    if (lowerSearchStr.indexOf(lowerSubStr) > -1) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  console.log(isSubstring('Mujahed', 'ja'));
+
