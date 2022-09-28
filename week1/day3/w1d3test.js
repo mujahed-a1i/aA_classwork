@@ -19,7 +19,7 @@ function printRange(start,end){
 printRange(3,10);
 
 console.log('While Loop');
-// while loop
+// while loop, you don't need an iterator
 function printRange1(start, end){
     let i = start;
     while(i <= end){
@@ -28,3 +28,28 @@ function printRange1(start, end){
     }
 }
 printRange1(7,21); 
+
+/*
+let i = 20;
+while(i === 20){
+    console.log(i);
+}
+*/
+
+/*
+let j = 20;
+while(true){
+    console.log(j);
+}
+*/
+
+console.log('skip5');
+function skipFive (num){
+    for (let k = 1; k <= num; k++){
+        if (k === 5){
+            continue
+        }
+        console.log(k);
+    }
+}
+skipFive(20); 
