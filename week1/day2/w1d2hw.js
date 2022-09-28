@@ -81,6 +81,16 @@ function isEven(even){
 
 console.log(isEven(26));
 
+//Average of 4 function
+
+function avgOf4(n1,n2,n3,n4) {
+    return ((n1 + n2 + n3 + n4) / 4);
+}
+
+console.log(avgOf4(12, 15, 25, 20));
+
+
+ 
 
 
 
