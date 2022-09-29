@@ -67,7 +67,7 @@ breakAtFive(20);
 
 //Write a function isPrime(num) that takes in a number and returns true if the number is prime and false if otherwise
 
-console.log("Prime Number true or fase")
+console.log("Prime Number true or false")
 function isPrime(num){
     if (num < 2)
         return false;
@@ -81,4 +81,20 @@ function isPrime(num){
 
 }
 
-console.log(isPrime(3));
+console.log(isPrime(11));
+
+//while loop Prime Number function
+function isPrime2(num){
+    if (num < 2)
+        return false;
+    let i = 2
+    while (i < num) {
+        if (num % i === 0) {
+            return false;
+        }
+        i++;
+    }
+    return true;       
+}
+
+console.log(isPrime2(13));
