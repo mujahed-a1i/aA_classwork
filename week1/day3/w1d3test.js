@@ -64,3 +64,21 @@ function breakAtFive(num){
     }
 }
 breakAtFive(20);
+
+//Write a function isPrime(num) that takes in a number and returns true if the number is prime and false if otherwise
+
+console.log("Prime Number true or fase")
+function isPrime(num){
+    if (num < 2)
+        return false;
+    for (let i = 2; i < num; i++){
+        if(num % i === 0){
+            return false;
+        }
+    }
+    return true;
+    
+
+}
+
+console.log(isPrime(3));

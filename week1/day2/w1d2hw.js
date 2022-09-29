@@ -109,7 +109,7 @@ function numcheck (num4){
 
 console.log(numcheck(36));
 
-// function isSubstring 
+/* function isSubstring 
 function isSubstring(searchString, subString) {
     let lowerSearchStr = searchString.toLowerCase();
     let lowerSubStr = subString.toLowerCase();
@@ -122,4 +122,25 @@ function isSubstring(searchString, subString) {
   }
 
   console.log(isSubstring('Mujahed', 'ja'));
+*/
 
+function isSubString(searchString, subString){ // (something, thin)
+    if (searchString.indexOf(subString) > -1) {
+        return true;
+    } else {
+        return false; 
+    }
+}
+
+console.log(isSubString('Mujahed', 'Muja'));
+
+function isSubString2(searchString2, subString2){
+    return searchString2.indexOf(subString2) > -1
+}
+
+console.log(isSubString2('Mushfiq', 'Mush'));
+
+
+
+console.log('waterisgood'.slice(3));
+console.log('waterisgood'.substring(3));

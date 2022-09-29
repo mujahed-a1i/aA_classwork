@@ -81,7 +81,7 @@ if(20===20){
 }
 
 let num = 20;
-if(num===20){
+if(num === 20){
     console.log("equals 20")
 }else if(num>20){
     console.log("greater")
