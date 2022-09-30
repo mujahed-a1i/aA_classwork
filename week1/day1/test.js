@@ -31,7 +31,7 @@ console.log(12 == "12")
 
 let str = "hello"
 console.log(str[1]) //= 'e'
-console.log("hello"[1])
+console.log("hello"[1]) // returns the index's character
 console.log("hello".length) //length gives the number of characters
 console.log("hello".indexOf('h')) //returns the index numnber
 console.log("hello".indexOf('l'))
@@ -49,7 +49,7 @@ console.log(4 * '10')
 console.log("hello".toUpperCase());
 console.log("HELLO".toLowerCase());
 console.log("hello".slice()); // no argument for slice gives a copy of a string
-console.log("hello".slice(1)); // slice 1 deletes index 1 
+console.log("hello".slice(2)); // .slice(2) deletes till  2 and then keeps the rest
 console.log("hello".slice(1,3)); // slice (1 is inclusive, 3 is excluse)
 
 /* Variable Declaration
@@ -100,9 +100,3 @@ Nan
 false
 */
 
-let num = 20;
-if(num = 30){
-    console.log("In the if");
-}else{
-    console.log("In the else");
-}

@@ -9,7 +9,15 @@
 */
 
 function oddRange(end) {
-  // your code here...
+  let oddArray = [];
+  for (i = 0; i <= end; i++){
+    if (i % 2 === 1){
+      oddArray.push(i);
+    }
+    
+  }
+  return oddArray;
+  
 }
 
 
