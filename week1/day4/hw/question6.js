@@ -1,0 +1,24 @@
+// Write a function `maxValue(array)` that returns the largest value in `array`.
+// Assume `array` is an array of numbers.
+//
+// Examples:
+//
+// maxValue([12, 6, 43, 2]); // => 43
+// maxValue([]); // => null
+// maxValue([-4, -10, 0.43]); // => 0.43
+
+function maxValue(array){
+    let max = undefined;
+    for (let i = 0; i < array.length; i++) {
+        let num = array[i];
+        if (num > null || max === undefined) {
+            max = num;
+        }
+        return num; 
+    }
+    
+}
+
+console.log(maxValue([12, 6, 43, 2])); // => 43
+console.log(maxValue([])); // => null
+console.log(maxValue([-4, -10, 0.43]));

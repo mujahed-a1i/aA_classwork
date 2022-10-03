@@ -43,7 +43,7 @@ console.log("race".concat("car"))
 console.log("race" + "car")
 console.log("hello" + " " + "world")
 console.log(4 + "hi") // a number that concats a string, the number coerce (changes) into a string 
-console.log(4 * "hi")
+console.log(4 * "hi") 
 console.log(4 * '10')
 
 console.log("hello".toUpperCase());

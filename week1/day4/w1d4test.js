@@ -61,10 +61,10 @@ console.log(numbers.slice(5)); // slices(5) the previous the indexes and include
 console.log(numbers.slice(0,2)); // .slice(0,2) includes the 0 index and goes up the 1st index. excludes index 2 [1,2]
 
 let string = 'hi my name is Xander';
-console.log(string.split('')); // .split(' ') makes a string into an array [ 'hi', 'my', 'name', 'is', 'Xander' ]
+console.log(string.split(' ')); // .split(' ') makes a string into an array [ 'hi', 'my', 'name', 'is', 'Xander' ]
 console.log(string);
 
-console.log(numbers.join(" ")); // .joins the array into a string
+console.log(numbers.join(" ")); // .joins makes an array into a string
 
 
 for(let i = 0; i < numbers.length; i++){

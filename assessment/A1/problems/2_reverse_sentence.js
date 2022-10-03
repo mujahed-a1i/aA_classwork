@@ -9,7 +9,7 @@ reverseSentence("Jump, jump for joy") => "joy for jump Jump,"
 *******************************************************************************/
 
 function reverseSentence(sentence) { 
-      let words = sentence.split('o') // ['Jump,', 'jump', 'for', 'joy']
+      let words = sentence.split(' ') // ['Jump,', 'jump', 'for', 'joy']
       let newArray2 = []; // ['joy', 'for', 'jump', 'Jump,']
       console.log(words);
       // i  > newArray.indexOf([i - 1])
@@ -26,7 +26,7 @@ function reverseSentence(sentence) {
 
 } 
 
-console.log(reverseSentence("Jump, jump for joy"));
+
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*************************/
