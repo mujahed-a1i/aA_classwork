@@ -35,15 +35,25 @@ let cat = {
     }
 
 }
-cat['name'] = 'Jael';
-cat['age'] = 21;
-console.log(cat);
-console.log(cat['color']);
+// cat['name'] = 'Jael';
+// cat['age'] = 21;
+// console.log(cat);
+// console.log(cat['color']);
 
-cat.name;
-cat.age;
-cat.toys.outside[0];
-console.log(cat.test);
-let test = 'name';
-console.log(cat[test]);
-console.log(cat.test)
+// cat.name;
+// cat.age;
+// cat.toys.outside[0];
+// console.log(cat.test);
+// let test = 'name';
+// console.log(cat[test]);
+// console.log(cat.test)
+
+// loop through object
+function printObject(obj){
+    for (let key in obj){
+        console.log(key);
+        console.log(obj[key]);
+    }
+}
+
+printObject(cat);
